@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>MAP</h1>
+    <!-- ilk resmi eklisoruz ve resme usemap özelligi ekliyoruz -->
+    <img
+      src="https://images.twinkl.co.uk/tw1n/image/private/t_630/u/ux/screenshot-2021-09-03-at-15.24.49_ver_1.jpg"
+      alt=""
+      usemap="#günesSistemi"
+    />
+    <!-- Map etiketini kullanıyoruz ve name özelliğine usemap de verilen aynı ismi veriyoruz 
+    rect: dikdörtgen alan olusturmak -->
+    <map name="günesSistemi">
+      <area
+        shape="rect"
+        coords="148,172,120,202"
+        href="https://solarsystem.nasa.gov/planets/mercury/overview/"
+        alt=""
+      />
+
+      <area
+        shape="rect"
+        coords="191,168,164,203"
+        href="https://solarsystem.nasa.gov/planets/mercury/overview/"
+        alt=""
+      />
+    </map>
+  </body>
+</html>
