@@ -7,21 +7,39 @@
     <title>FORM</title>
   </head>
   <body>
+    <!-- Bir form oluşturabilmek için öncelikle form etiketi ile başlanır.
+          Form içinde kullanıcı adı,şifre gibi bilgileri yazı ile yazmak için label etiketi kullanılır.
+          Form içinde en fazla kullanılan etiketlerden biri input etiketidir.İnput ile text,password,number,email,tel,date radio,checkbox özellikleri kullanılabilir.-->
     <form action="result.html" method="get">
       <div>
         <!--  Label daki for ile input id birbiriyle aynı olursa bağlantı sağlamış olur. -->
         <label for="kullaniciAdi">KULLANICI ADI</label>
-        <input type="text" id="kullaniciAdi" name="kullaniciAdi" />
+        <input
+          type="text"
+          id="kullaniciAdi"
+          name="kullaniciAdi"
+          placeholder="Kullanici Adi gir"
+        />
       </div>
       <br />
       <div>
         <label for="sifre">SIFRE</label>
-        <input type="password" id="sifre" name="sifre" />
+        <input
+          type="password"
+          id="sifre"
+          name="sifre"
+          placeholder="Sifre Girin"
+        />
       </div>
       <br />
       <div>
         <label for="guvenlikKodu">GÜVENLIK KODU</label>
-        <input type="number" id="guvenlikKodu" name="GüvenlikKodu" />
+        <input
+          type="number"
+          id="guvenlikKodu"
+          name="GüvenlikKodu"
+          placeholder="Güvenlik kodunuzu girin"
+        />
       </div>
       <br />
       <div>
