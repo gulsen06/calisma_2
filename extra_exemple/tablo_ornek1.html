@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="result.html" method="get">
+      <table border="2">
+        <div>
+          <tr>
+            <td><label for="ad">Ad</label></td>
+            <td><input type="text" id="ad" name="Ad" required /></td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td><label for="soyad">Soyad</label></td>
+            <td><input type="text" id="soyad" name="Soyad" required /></td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td><label for="yas">Yas</label></td>
+            <td><input type="number" id="yas" name="yas" required /></td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td><label for="fotografEkle">Resim Ekle</label></td>
+            <td><input type="file" id="fotografEkle" name="FotografEkle" /></td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td><label for="cinsiyet">Cinsiyet</label></td>
+            <td>
+              <input type="radio" id="cinsiyet" name="kadin" />K
+              <input type="radio" id="cinsiyet" name="Cinsiyet" />E
+            </td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td><label for="yabanciDiller">Yabanci yabanciDiller</label></td>
+            <td>
+              <input type="checkbox" name="yabanciDiller" id="ingilizce" />
+              <label for="ingilizce">Ingilizce</label>
+              <input type="checkbox" name="yabanciDiller" id="almanca" />
+              <label for="almanca">Almanca</label>
+              <input type="checkbox" name="yabanciDiller" id="digerDiller" />
+              <label for="digerDiller">Diger Diller</label>
+            </td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td>Görüsler</td>
+            <td>
+              <textarea
+                name="Görüsler"
+                id="görüsler"
+                cols="30"
+                rows="3"
+              ></textarea>
+            </td>
+          </tr>
+        </div>
+        <div>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="KAYDET" />
+              <input type="reset" value="TEMIZLE" />
+            </td>
+          </tr>
+        </div>
+      </table>
+    </form>
+  </body>
+</html>
