@@ -1,0 +1,13 @@
+#par3 {
+  background-color: blueviolet;
+}
+#par1 {
+  background-color: deepskyblue;
+}
+/*override ezmek*/
+#par5 {
+  background-color: burlywood;
+}
+.paragraf {
+  background-color: coral;
+}
