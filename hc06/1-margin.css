@@ -33,3 +33,13 @@ h1 {
   margin: 20px;
   background-color: bisque;
 }
+
+.nav {
+  border: 2px solid red;
+}
+.nav li {
+  /* background-color: blanchedalmond; */
+  display: inline;
+  margin-top: 50px;
+  padding: 15px;
+}
