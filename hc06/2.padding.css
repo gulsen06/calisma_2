@@ -16,6 +16,7 @@
   border: 10px solid blue;
   box-sizing: border-box;
   padding: 20px;
+  overflow: auto;
 }
 
 .div3 {

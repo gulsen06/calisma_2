@@ -1,0 +1,23 @@
+.box1 {
+  /* background-color: tomato; */
+  background-color: rgb(255, 200, 0);
+}
+.box2 {
+  /* background-color: pink; */
+  background-color: rgb(0, 255, 0);
+}
+.box3 {
+  background-color: #34bb87;
+}
+.box4 {
+  background-color: rgba(120, 80, 47, 90, 0.5);
+  margin-top: -25px;
+}
+.box5 {
+  /* background-color: greenyellow; */
+  background-color: hsl(120, 100%, 50%);
+}
+.box6 {
+  /* background-color: aquamarine; */
+  background-color: hsla(240, 100%, 50%, 0.5);
+}
